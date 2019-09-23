@@ -16,6 +16,7 @@
   color: #FFF;
   background-color: #5E4485;
 }
+
 .navbar-inverse .navbar-nav li a {
   color: #D5D5D5;
 }
@@ -39,8 +40,29 @@
 }
 #icon {
   max-width: 200px;
-  margin: 1% auto;
+  margin: 2% auto;
+}
+footer {
+  width: 100%
+  padding: 5%;
+  color: #FFF;
+  background-color: #5E4485;
+}
+.fa {
+  padding: 20px;
+  font-size: 25px;
+  color: #FFF;
+}
+.fa:hover {
+  color: #D5D5D5;
+  text-decoration: none;
 
+}
+@media (max-width: 900px) {
+  .fa {
+    font-size: 20px;
+    padding: 10px;
+  }
 }
 @media (max-width: 600px) {
   .carousel-caption {
